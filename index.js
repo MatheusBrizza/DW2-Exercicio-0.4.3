@@ -23,7 +23,8 @@ const arquivos = [
   },
 ];
 
+arquivos.forEach((arquivo) => {
+  arquivo.excluido = !arquivo.excluido;
+});
 
-arquivos.forEach(excluido, index) => {
-
-}
+console.log(arquivos);
